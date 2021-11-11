@@ -74,7 +74,7 @@ class UserInfoVC: GFDataLoadingVC {
         self.add(childVC: GFRepoItemVC(user: user, delegate: self), to: self.itemViewOne)
         self.add(childVC: GFFollowerItemVC(user: user, delegate: self), to: self.itemViewTwo)
         self.add(childVC: GFUserInfoHeaderVC(user: user), to: self.headerView)
-        self.dateLabel.text = "GitHub since \(user.createdAt.convertToMonthYearFormat())" //use .convertToDisplayFormat instead of .convertToMonthYearFormat if you wanna use String+Ext.swift
+        self.dateLabel.text = "GitHub since \(user.createdAt.convertToMonthYearFormat())" //use .convertToDisplayFormat instead of .convertToMonthYearFormat for String+Ext.swift
     }
     
     

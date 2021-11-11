@@ -40,6 +40,4 @@ class GFTextField: UITextField {
         clearButtonMode             = .whileEditing
         placeholder                 = "Enter a username"
     }
-    
-
 }

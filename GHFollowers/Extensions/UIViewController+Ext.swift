@@ -26,5 +26,3 @@ extension UIViewController {
         present(safariVC, animated: true)
     }
 }
-
-

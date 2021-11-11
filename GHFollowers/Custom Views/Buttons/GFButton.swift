@@ -39,6 +39,4 @@ class GFButton: UIButton {
         self.backgroundColor = backgroundColor
         setTitle(title, for: .normal)
     }
-    
-    
 }
